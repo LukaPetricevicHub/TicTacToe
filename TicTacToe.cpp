@@ -36,12 +36,10 @@ bool isBoardFull() {
 }
 
 bool checkWin(char player) {
-    // Check rows and columns
     for (int i = 0; i < SIZE; ++i) {
         if (board[i][0] == player && board[i][1] == player && board[i][2] == player) return true;
         if (board[0][i] == player && board[1][i] == player && board[2][i] == player) return true;
     }
-    // Check diagonals
     if (board[0][0] == player && board[1][1] == player && board[2][2] == player) return true;
     if (board[0][2] == player && board[1][1] == player && board[2][0] == player) return true;
     return false;
@@ -60,8 +58,8 @@ void playerTurn(char player) {
     do {
         cout << "Player " << player << ", enter row and column (0-2, space separated): ";
         while (!(cin >> row >> col)) {
-            cin.clear(); // Clear error flag
-            cin.ignore(numeric_limits<streamsize>::max(), '\n'); // Discard input
+            cin.clear(); 
+            cin.ignore(numeric_limits<streamsize>::max(), '\n'); 
             cout << "Invalid input. Please enter numbers only.\n";
             cout << "Player " << player << ", enter row and column (0-2, space separated): ";
         }
@@ -115,5 +113,5 @@ void playGame() {
 }
 
 int main() {
-    srand(time(0)); // Initialize random seed
+    srand(time(0)); 
     char playAgain = '
