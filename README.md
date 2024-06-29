@@ -32,5 +32,3 @@ This project is a simple console-based Tic-Tac-Toe game implemented in C++. The 
 
 2. Follow the on-screen prompts to play the game. You can choose to play against another player or the computer.
 
-## Purpose
-The game provides an interactive way for players to enjoy a classic game of Tic-Tac-Toe. Players can compete against each other or test their skills against the computer.
