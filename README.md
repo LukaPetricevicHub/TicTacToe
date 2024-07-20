@@ -21,13 +21,13 @@ This project is a simple console-based Tic-Tac-Toe game implemented in C++. The 
 
 2. Compile the program:
     ```bash
-    g++ -o tic_tac_toe tic_tac_toe.cpp
+    g++ -o TicTacToe TicTacToe.cpp
     ```
 
 ## Usage
 1. Run the executable:
     ```bash
-    ./tic_tac_toe
+    ./TicTacToe
     ```
 
 2. Follow the on-screen prompts to play the game. You can choose to play against another player or the computer.
