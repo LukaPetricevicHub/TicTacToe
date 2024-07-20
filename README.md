@@ -15,7 +15,7 @@ This project is a simple console-based Tic-Tac-Toe game implemented in C++. The 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/YourUsername/YourRepository.git
+    git clone https://github.com/LukaPetricevicHub/TicTacToe.git
     cd YourRepository
     ```
 
